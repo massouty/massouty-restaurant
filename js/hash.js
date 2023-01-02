@@ -1,18 +1,7 @@
 /**
  * hash.js
  *
- * Copyright (C) 2012 Emmanuel Garcia
- * MIT Licensed
- *
- * ****************************************
- *
- * Hash.pushState(true);
- *
- * Hash.on('/page/([0-9]+)$',
- *	{yep: function(path, parts) { }, nop: function() { }},
- *	'Page $1');
- *
- * Hash.go('/page/1');
+ * 
  **/
 
 (function() {
